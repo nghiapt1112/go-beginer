@@ -2,7 +2,7 @@ package routes
 
 import (
     "net/http"
-    "github.com/nghia.pham/handler"
+    "../handler"
 )
 
 type Route struct {

@@ -3,7 +3,7 @@ package routes
 import (
     "github.com/gorilla/mux"
     "net/http"
-    "github.com/nghia.pham/logger"
+    "../logger"
 )
 
 func NewRouter() *mux.Router {

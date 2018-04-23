@@ -6,7 +6,7 @@ import (
     "fmt"
     "encoding/json"
     "github.com/gorilla/mux"
-    "github.com/nghia.pham/models"
+    "../models"
     )
 
 func Index(w http.ResponseWriter, r *http.Request) {
